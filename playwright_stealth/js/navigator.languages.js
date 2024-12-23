@@ -1,4 +1,4 @@
-const languages = opts.navigator.languages.length ? opts.navigator.languages : ["en-US", "en"];
+const languages = ["en-US", "en"]; // Set strictly to English
 utils.replaceGetterWithProxy(
   Object.getPrototypeOf(navigator),
   "languages",
